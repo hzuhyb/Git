@@ -1,7 +1,7 @@
 # git add 指令
 * [参考资料](https://git-scm.com/docs/git-add)
 
-## git add 常用指令： 
+## git add 常用指令：
 * git add a.txt
 	* 提交指定文件代码到暂存区
 
@@ -22,6 +22,6 @@
 
 
 ## 相关指令：
-* [git_commit.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_commit.md) 提交代码（到本地仓库）： 代码存入**暂存区**后，下一操作一般是存入**本地仓库**； 
+* [git_commit.md](https://github.com/huangtubiao/Git/blob/master/learn_log/git_commit.md) 提交代码（到本地仓库）： 代码存入**暂存区**后，下一操作一般是存入**本地仓库**；
 
-* [git_status.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_status.md) 查看当前代码状态： 方便查看`git add`前后的代码变化；
+* [git_status.md](https://github.com/huangtubiao/Git/blob/master/learn_log/git_status.md) 查看当前代码状态： 方便查看`git add`前后的代码变化；

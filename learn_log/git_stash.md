@@ -8,12 +8,12 @@
 * **工作现场**独立存在于所有分支， 也就是一个git 项目中只有一个**工作现场**，即使这个项目中有N个分支；（所以如果想将A分支改动的文件提交到B分支，不妨试用git stash）
 * 如果有**修改**的文件从**暂存区间**中放入**工作现场**（git stash）, 当再次从**工作现场**取出时（git stash pop）， 该修改的文件会变回在**工作区间**；(**新增**的文件则正常恢复到**暂存区间**)
 
-## git stash 常用指令： 
+## git stash 常用指令：
 * git stash
 * git stash save "这些是注释啦"
 	* 新增安全工作区（将当前的所有改动全部放入安全工作区）, `git stash`的默认注释为当前分支上一次commit的注释
 
-* git stash list 
+* git stash list
 	* 显示安全工作区列表
 
 * git stash clear
@@ -33,4 +33,4 @@
 
 
 ## 相关指令：
-* [git_status.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_status.md)  查看当前代码状态指令： 使用我这个指令，只是为了确认放入 **安全工作区** 是否成功。
+* [git_status.md](https://github.com/huangtubiao/Git/blob/master/learn_log/git_status.md)  查看当前代码状态指令： 使用我这个指令，只是为了确认放入 **安全工作区** 是否成功。

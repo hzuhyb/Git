@@ -24,18 +24,18 @@
 * git checkout [tagname]
 	* 切换到指定标签
 
-* git tag -d v0.1.2 
+* git tag -d v0.1.2
 	* 删除指定标签
 
 * git tag -a v0.1.1 9fbc3d0
 	* 给指定的 commit 打标签， 这里“9fbc3d0”为commitId
 
-* git push origin v0.1.2 
+* git push origin v0.1.2
 	* 将v0.1.2标签提交到远程git服务器
 
-* git push origin –-tags 
+* git push origin –-tags
 	* 将本地所有标签一次性提交到git服务器
 
 
 ## 相关指令：
-* [git_branch.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_branch.md)   分支相关操作指令： 欢迎分支指令新成员！
+* [git_branch.md](https://github.com/huangtubiao/Git/blob/master/learn_log/git_branch.md)   分支相关操作指令： 欢迎分支指令新成员！

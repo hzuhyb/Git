@@ -5,13 +5,13 @@
 * `git push origin`
 * 上面命令表示，将当前分支推送到origin主机的对应分支。
 
-## git stash 常用指令： 
-* git push 
+## git stash 常用指令：
+* git push
 	* 推送代码至与当前分支关联的远程分支
 
 * git push origin remoteBranchName
 	* 推送代码至指定的远程分支
-	
+
 * git push origin newBranch:newBranch
 	* 推送分支到远程并在远程创建一同名分支， ’newBranch’为本地分支，线上没有的那种
 
@@ -20,4 +20,4 @@
 
 
 ## 相关指令：
-* [git_status.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_status.md)  查看当前代码状态指令： 使用我这个指令，只是为了确认提交远程是否成功而已。。。
+* [git_status.md](https://github.com/huangtubiao/Git/blob/master/learn_log/git_status.md)  查看当前代码状态指令： 使用我这个指令，只是为了确认提交远程是否成功而已。。。

@@ -35,7 +35,7 @@
 	* 说明：忽略全部内容，但是不忽略 .gitignore 文件、根目录下的 /fw/bin/ 和 /fw/sf/ 目录；
 
 ## 相关指令：
-* [git_status.md](https://github.com/wteam-xq/testGit/blob/master/learn_log/git_status.md)  查看当前代码状态指令： 我是万能的检测器！
+* [git_status.md](https://github.com/huangtubiao/Git/blob/master/learn_log/git_status.md)  查看当前代码状态指令： 我是万能的检测器！
 
 ## 实践问题：
 * 利用.gitignore过滤文件，如编译过程中的中间文件，等等，这些文件不需要被追踪管理。
