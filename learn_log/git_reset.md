@@ -32,6 +32,7 @@
 
 * git reset --hard d362816
 	* 本地区间代码回退到指定版本（d362816 为commit id, 可通过[git log](https://github.com/huangtubiao/Git/blob/master/learn_log/git_clone.md) 查到）
+	* 有时候我们会不小心git的commit还没push的时候，执行git pull --rebase（关于git pull 和 git pull --rebase 的区别可以参考[洁癖者用 Git：pull --rebase 和 merge --no-ff](http://hungyuhei.github.io/2012/08/07/better-git-commit-graph-using-pull---rebase-and-merge---no-ff.html)），本地代码被同步，导致本地文件被覆盖，自己修改的东西一下子不见了，这时你执行git log，是找不到commit的那个操作的，解决方案是执行 git reflog 然后 git reset --hard d362816（想要回退的commit id），就可恢复被覆盖的文件。
 
 * git reset --hard origin/master
 	* 本地工作区间代码回退到远程版本(master为分支名).
