@@ -48,6 +48,9 @@ git branch --set-upstream-to=origin/remoteBranchName localBranchName`
 * git log —graph  
 	* 查看分支合并情况（图方式显示）
 
+* git push --set-upstream origin [localBranchName]
+ 	* 推送本地分支到远程分支并建立关联
+
 ## 相关指令：
 * [git_checkout.md](https://github.com/huangtubiao/Git/blob/master/learn_log/git_checkout.md)  切换代码分支指令：使用git分支必定会用到的指令！
 
