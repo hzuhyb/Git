@@ -53,7 +53,8 @@ git branch --set-upstream-to=origin/remoteBranchName localBranchName`
 
 ## 相关指令：
 * [git_checkout.md](https://github.com/huangtubiao/Git/blob/master/learn_log/git_checkout.md)  切换代码分支指令：使用git分支必定会用到的指令！
-
 * [git_merge.md](https://github.com/huangtubiao/Git/blob/master/learn_log/git_merge.md) 合并分支指令：注意我合并的是**本地分支** 代码;
-
 * [git_pull.md](https://github.com/huangtubiao/Git/blob/master/learn_log/git_pull.md) 更新、合并指令： 我能合并**远程分支**的代码哟！
+
+## 相关ref
+* [git 误删分支恢复方法](http://blog.csdn.net/fdipzone/article/details/50616386)
