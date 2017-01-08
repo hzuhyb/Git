@@ -52,3 +52,7 @@
 
 ### [git_clean.md](https://github.com/huangtubiao/Git/blob/master/learn_log/git_clean.md)   
 - git 清除未跟踪代码、文件夹
+
+### Credit To 
+
+- [testGit](https://github.com/wteam-xq/testGit)
