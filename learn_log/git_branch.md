@@ -51,6 +51,20 @@ git branch --set-upstream-to=origin/remoteBranchName localBranchName`
 * git push --set-upstream origin [localBranchName]
  	* 推送本地分支到远程分支并建立关联
 
+如果忘了另起分支。而直接在主分支上修改代码，这可以使用下面的方法补救：
+
+```
+$ git branch new-feature-branch
+$ git reset --hard
+$ git checkout new-featrue-branch
+```
+
+但是这种方法不严谨，直接动了主分支的代码，可以通过下面的方法：
+
+```
+git  reset --hard是放弃本次修改，这个操作不可逆所以要慎重，如果如题主那样不小心修改主分支，也有办法：主分支上先commit，然后branch个新分支，主分支上用git reset  DEAD^切换要上一次commit,然后再checkout 切换到新建的分支。
+```
+
 ## 相关指令：
 * [git_checkout.md](https://github.com/huangtubiao/Git/blob/master/learn_log/git_checkout.md)  切换代码分支指令：使用git分支必定会用到的指令！
 * [git_merge.md](https://github.com/huangtubiao/Git/blob/master/learn_log/git_merge.md) 合并分支指令：注意我合并的是**本地分支** 代码;
