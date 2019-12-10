@@ -18,6 +18,11 @@
 * git commit -m "注释内容"
   * 将 **暂存区** 代码放入 **本地仓库**
 
+### git commit message:
+- [Git Commit Log 的小型团队最佳实践](https://mp.weixin.qq.com/s/iaiejkugOqV4rg2hXuHOAw)
+- [优雅地提交你的 Git commit message](https://juejin.im/post/5afc5242f265da0b7f44bee4) 
+- [An emoji guide for your commit messages](https://gitmoji.carloscuesta.me/)
+
 ## 相关指令：
 * [git_status.md](https://github.com/huangtubiao/Git/blob/master/learn_log/git_status.md)  查看当前代码状态指令： 提交代码到**本地仓库**后， 用我可以查看有多少个commit等待提交到远程哦！
 
