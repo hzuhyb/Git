@@ -11,5 +11,8 @@
 * git reflog
 	* 查看本地仓库所有改变列表（git reset的每次操作都会记录在该列表）
 
+* git shortlog -sn
+	* 列出代码仓库的提交者统计
+
 ## 相关指令：
 * [git reset](https://github.com/huangtubiao/Git/blob/master/learn_log/git_reset.md) 代码撤销（回退）指令： `git log`好基友！
