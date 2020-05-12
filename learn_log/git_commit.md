@@ -17,6 +17,9 @@
 
 * git commit -m "注释内容"
   * 将 **暂存区** 代码放入 **本地仓库**
+  
+* git commit --amend 
+  * 可以对上一次的提交做修改
 
 ### git commit message:
 - [Git Commit Log 的小型团队最佳实践](https://mp.weixin.qq.com/s/iaiejkugOqV4rg2hXuHOAw)
