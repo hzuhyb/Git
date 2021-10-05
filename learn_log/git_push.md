@@ -18,6 +18,9 @@
 * git push origin --delete [branch-name]
   * 删除远程分支
 
+* git push origin HEAD --force
+  * 推送到本地到远程仓库：让远程仓库代码和你本地一样，到当前你本地的版本。
+
 
 ## 相关指令：
 * [git_status.md](https://github.com/huangtubiao/Git/blob/master/learn_log/git_status.md)  查看当前代码状态指令： 使用我这个指令，只是为了确认提交远程是否成功而已。。。
