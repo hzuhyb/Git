@@ -4,10 +4,14 @@
 * git rebase 是git merge的辅助，用了git rebase还得用git merge完成分支合并；
 
 * 使用git rebase后，用法上比git merge复杂， 例如将experiment分支代码合并到master:
+<img width="468" alt="git_rebase_s1" src="https://user-images.githubusercontent.com/10185166/182366400-c5d43740-6f02-4e18-b48b-a8cc1a4c9c62.png">
 
 * git merge 是切换到master分支然后合并：git checkout master + git merge experiment:
+<img width="461" alt="git_rebase_s2" src="https://user-images.githubusercontent.com/10185166/182366432-ab1ecd2f-9ab8-48ca-b051-da7cb4cab065.png">
 
 * git rebase 是切换到experiment然后变基到master分支,完成后,切换回master再将两分支合并： git checkout experiment + git rebase master + git checkout master + git merge experiment:
+<img width="462" alt="git_rebase_s3" src="https://user-images.githubusercontent.com/10185166/182366452-a979d065-ef75-437c-8805-d2969264fecd.png">
+<img width="454" alt="git_rebase_s4" src="https://user-images.githubusercontent.com/10185166/182366466-c4c21d06-9aec-4323-b8ce-9c287cbdceaa.png">
 
 * git rebase xxx，冲突不多，使用git rebase --continue， 冲突太多git rebase --abort 取消变基。
 
