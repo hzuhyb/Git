@@ -28,5 +28,8 @@
 * git checkout -b dev
 	* 基于当前分支创建一个叫“dev”的分支，然后切换过去；
 
+* git checkout -b b1 b2
+	* 基于 b2 分支创建一个叫“b1”的分支，然后切换过去；
+
 ## 相关指令：
 * [git reset](https://github.com/huangtubiao/Git/blob/master/learn_log/git_reset.md) 代码撤销（回退）： 配合`git log`，我的回退实用性可以完爆`git checkout`;
