@@ -29,8 +29,8 @@
 ### [git_merge.md](https://github.com/huangtubiao/Git/blob/master/learn_log/git_merge.md)   
 - git 合并分支代码
 
-### [git_merge.md](https://github.com/hzuleo/Git/blob/master/learn_log/git_rebase.md)   
-- git 合并分支代码
+### [git_rebase.md](https://github.com/hzuleo/Git/blob/master/learn_log/git_rebase.md)   
+- git 变基操作
 
 ### [git_log.md](https://github.com/huangtubiao/Git/blob/master/learn_log/git_log.md)
 - git 查看commit日志
