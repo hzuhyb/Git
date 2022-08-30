@@ -50,7 +50,7 @@
 ### [git_fetch.md](https://github.com/huangtubiao/Git/blob/master/learn_log/git_fetch.md)   
 - git 更新代码（不合并本地修改)
 
-### [git_cheery-pick.md][https://github.com/hzuleo/Git/blob/master/learn_log/git_cheery-pick]
+### [git_cheery-pick.md](https://github.com/hzuleo/Git/blob/master/learn_log/git_cheery-pick)
 - git 迁移 commit 指令
 
 ### [git_tag.md](https://github.com/huangtubiao/Git/blob/master/learn_log/git_tag.md)   
